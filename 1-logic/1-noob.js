@@ -1,7 +1,8 @@
 function toAccounting (n) {
   if (n < 0) {
     return '(' + Math.abs(n) + ')'
-  } else if (n >= 0) {
+  } else {
+    n >= 0
     return n
   }
 }
